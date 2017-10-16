@@ -1,0 +1,21 @@
+{
+    "name": "jasmine/dependency-injection",
+    "type": "library",
+    "description": "Jasmine Dependency Injection Component",
+    "authors": [
+        {
+            "name": "xiedong",
+            "email": "xd148269@alibaba-inc.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jasmine\\Routing\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}
